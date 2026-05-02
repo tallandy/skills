@@ -1,0 +1,4 @@
+interface:
+  display_name: "Improve Codebase Performance"
+  short_description: "Find and fix measured performance bottlenecks"
+  default_prompt: "Use $improve-codebase-performance to profile this code path and improve its performance without changing behavior."
