@@ -1,6 +1,7 @@
 ---
 name: improve-codebase-performance
 description: Measured performance improvement for a specific part of a codebase. Use when the user wants to speed up a code path, reduce latency, improve throughput, lower memory or CPU usage, optimise database queries, improve frontend rendering performance, shrink build/test/runtime cost, or investigate a suspected performance bottleneck without changing behaviour.
+disable-model-invocation: true
 ---
 
 # Improve Codebase Performance

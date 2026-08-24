@@ -1,4 +1,7 @@
 interface:
-  display_name: "Improve Codebase Performance"
-  short_description: "Find and fix measured performance bottlenecks"
-  default_prompt: "Use $improve-codebase-performance to profile this code path and improve its performance without changing behavior."
+    display_name: 'Remove Dead Code'
+    short_description: 'Prove and safely remove unreachable or unused code'
+    default_prompt: 'Use $dead-code-removal to identify and remove high-confidence dead code in this repository without changing behaviour or unrelated code.'
+
+policy:
+    allow_implicit_invocation: false
